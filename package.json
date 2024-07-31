@@ -1,6 +1,6 @@
 {
-  "name": "tsconfig-paths-webpack-plugin",
-  "version": "4.1.0",
+  "name": "@martinjlowm/tsconfig-paths-webpack-plugin",
+  "version": "4.2.0",
   "description": "Load modules according to tsconfig paths in webpack.",
   "main": "lib/index.js",
   "types": "lib/index",
@@ -8,9 +8,9 @@
   "license": "MIT",
   "repository": "https://github.com/dividab/tsconfig-paths-webpack-plugin",
   "dependencies": {
+    "@martinjlowm/tsconfig-paths": "^4.3.0",
     "chalk": "^4.1.0",
-    "enhanced-resolve": "^5.7.0",
-    "tsconfig-paths": "^4.1.2"
+    "enhanced-resolve": "^5.7.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
